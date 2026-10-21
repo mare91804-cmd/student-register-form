@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  
+  <main class="container">
+    <h1>Student Registration</h1>
+    <p class="subtitle">Register and manage student records</p>
+
+    <form id="registrationForm">
+      <label for="name">Full Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Enter full name"
+        required
+      >
+
+      <label for="email">Email Address</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="Enter email address"
+        required
+      >
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        placeholder="Minimum 6 characters"
+        minlength="6"
+        required
+      >
+
+      <button type="submit">Register Student</button>
+    </form>
+
+    <p id="message" role="status" aria-live="polite"></p>
+
+    <section class="students-section">
+      <h2>Registered Students</h2>
+      <p id="studentCount">Total Students: 0</p>
+      <ul id="studentList"></ul>
+    </section>
+  </main>
+</body>
+</html>

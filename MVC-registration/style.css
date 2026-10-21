@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 30px 15px;
+    color: #263238;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    color: #123c69;
+    text-align: center;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+    color: #123c69;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: 2px solid #7ba7d8;
+    border-color: #123c69;
+  }
+  
+  button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    color: white;
+    background: #123c69;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #1d5b91;
+  }
+  
+  #message {
+    text-align: center;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+  }
+  
+  .students-section {
+    margin-top: 30px;
+  }
+  
+  #studentCount {
+    color: #123c69;
+    font-weight: bold;
+  }
+  
+  #studentList {
+    padding-left: 25px;
+  }
+  
+  #studentList li {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+    overflow-wrap: anywhere;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 18px;
+    }
+  }
+  
